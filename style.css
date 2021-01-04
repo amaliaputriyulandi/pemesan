@@ -1,0 +1,50 @@
+body {
+    position: relative;
+    left: 10%;
+}
+
+.box {
+    position: absolute;
+    left: 50%;
+}
+
+input {
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 0 5px !important; 
+    box-shadow: 0 2px 5px rgba(0, 255, 13, 0.5);
+}
+
+input:hover, input:focus {
+    background: black;
+    color:white;
+}
+
+button {
+    background: green;
+    color: ivory;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: black;
+    color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.total {
+    position: relative;
+    left: 48%;
+    
+    padding: 10px 40px;
+}
+
+.login {
+    position: relative;
+    
+    padding: 10px 40px;
+}
